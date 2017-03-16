@@ -87,7 +87,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kalarm.git
 
 Package: kalarm
 Architecture: any
-Depends: util-linux, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
 Suggests: jovie
 Homepage: http://www.astrojar.org.uk/kalarm/
 Description: alarm message, command and email scheduler
