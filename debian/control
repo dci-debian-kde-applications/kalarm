@@ -89,6 +89,8 @@ Package: kalarm
 Architecture: any
 Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
 Suggests: jovie
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Homepage: http://www.astrojar.org.uk/kalarm/
 Description: alarm message, command and email scheduler
  KAlarm provides a graphical interface to schedule personal timed events -
