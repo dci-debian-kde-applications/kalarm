@@ -64,9 +64,11 @@ Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
 Suggests: jovie
 Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
         kde-l10n-eo (<< 4:17.03.90-0~),
+        kdepim-doc (<< 4:17.08~),
         ${kde-l10n:all},
 Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
           kde-l10n-eo (<< 4:17.03.90-0~),
+          kdepim-doc (<< 4:17.08~),
           ${kde-l10n:all},
 Homepage: http://www.astrojar.org.uk/kalarm/
 Description: alarm message, command and email scheduler
