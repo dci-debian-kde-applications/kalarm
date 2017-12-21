@@ -1,4 +1,6 @@
-kalarm (4:17.08.3-1) UNRELEASED; urgency=medium
+kalarm (4:17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
 
   [ Maximiliano Curia ]
   * New revision
@@ -7,12 +9,11 @@ kalarm (4:17.08.3-1) UNRELEASED; urgency=medium
   [ Sandro Knauß ]
   * New upstream release (17.08.3).
   * Bump Standards-Version to 4.1.2 (No changes needed).
-  * Bump Standards-Version to 4.1.2 (No changes needed).
   * Add libx11-dev as Build-Dep.
   * Bump debhelper build-dep and compat to 10.
   * Set l10npkgs_firstversion_ok to 4:16.04.3-9~
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 17 Dec 2017 13:09:29 +0100
+ -- Sandro Knauß <hefee@debian.org>  Thu, 21 Dec 2017 17:51:20 +0100
 
 kalarm (4:17.08.0-1) experimental; urgency=medium
 
